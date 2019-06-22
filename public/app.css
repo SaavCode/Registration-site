@@ -80,3 +80,44 @@ input[type=text]:focus {
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: rgba(255,255,255,0.8);
 }
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+.content {
+    padding-bottom: 0%;
+}
+.content h1{
+    font-size: 450%;
+}
+.btn{
+    font-size: 130%;
+    padding: 9px 17px;
+
+}
+}
+@media screen and (max-width: 768px) {
+    .content {
+        padding-bottom: 0%;
+    }
+    .content h1{
+        font-size: 300%;
+    }
+    .btn{
+
+        font-size: 110%; 
+        padding: 7px 15px;
+
+    }
+}
+@media screen and (max-width: 480px) {
+	.content {
+        padding-bottom: 0%;
+    }
+    .content h1{
+        font-size: 250%;
+    }
+    .btn{
+        font-size: 100%;
+        padding: 6px 14px;
+
+    }
+}
