@@ -24,19 +24,6 @@ body {
 }
 
 
-h3{
-   margin: 0;
-  font-size: 40px;
-
-
-}
-
-
-h4{
-    margin: 0;
-  font-size: 20px;
-
-}
 /*paragraph*/
 p {
   margin: 0;
@@ -94,6 +81,19 @@ input[type=text]:focus {
       font-weight: 150;
       word-wrap:break-word;
   }
+  h3{
+     margin: 0;
+    font-size: 40px;
+
+
+  }
+
+
+  h4{
+      margin: 0;
+    font-size: 20px;
+
+  }
   .btn{
       font-size: 200px;
       padding: 9px 17px;
@@ -107,11 +107,24 @@ input[type=text]:focus {
 }
 .content h1{
   padding-bottom: 0;
-  padding-top: 450px;
+  padding-top: 550px;
     font-size: 240px;
     line-height: 200px;
     font-weight: 100;
     word-wrap:break-word;
+}
+h3{
+   margin: 0;
+  font-size: 40px;
+
+
+}
+
+
+h4{
+    margin: 0;
+  font-size: 20px;
+
 }
 .btn{
     font-size: 200px;
@@ -128,11 +141,24 @@ input[type=text]:focus {
   }
   .content h1{
     padding-bottom: 0;
-    padding-top: 450px;
+    padding-top: 500px;
       font-size: 200px;
       line-height: 200px;
       font-weight: 100;
       word-wrap:break-word;
+  }
+  h3{
+     margin: 0;
+    font-size: 30px;
+
+
+  }
+
+
+  h4{
+      margin: 0;
+    font-size: 15px;
+
   }
   .btn{
 
@@ -149,11 +175,24 @@ input[type=text]:focus {
     }
     .content h1{
       padding-bottom: 0;
-      padding-top: 450px;
+      padding-top: 500px;
         font-size: 150px;
         line-height: 180px;
         font-weight: 100;
         word-wrap:break-word;
+    }
+    h3{
+       margin: 0;
+      font-size: 30px;
+
+
+    }
+
+
+    h4{
+        margin: 0;
+      font-size: 15px;
+
     }
     .btn{
 
@@ -171,11 +210,24 @@ input[type=text]:focus {
     }
     .content h1{
       padding-bottom: 0;
-      padding-top: 450px;
+      padding-top: 500px;
         font-size: 120px;
         line-height: 160px;
         font-weight: 100;
         word-wrap:break-word;
+    }
+    h3{
+       margin: 0;
+      font-size: 30px;
+
+
+    }
+
+
+    h4{
+        margin: 0;
+      font-size: 15px;
+
     }
     .btn{
         font-size: 100%;
@@ -192,11 +244,24 @@ input[type=text]:focus {
     }
     .content h1{
       padding-bottom: 0;
-      padding-top: 450px;
+      padding-top: 500px;
         font-size: 100px;
         line-height: 140px;
         font-weight: 100;
         word-wrap:break-word;
+    }
+    h3{
+       margin: 0;
+      font-size: 30px;
+
+
+    }
+
+
+    h4{
+        margin: 0;
+      font-size: 15px;
+
     }
     .btn{
         font-size: 100%;
