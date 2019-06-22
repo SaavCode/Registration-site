@@ -79,19 +79,7 @@ input[type=text]:focus {
 }
 /*--- Media Queries --*/
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 
-  /*header*/
-  h1{
-  padding-bottom: 0;
-  padding-top: 400px;
-    font-size: 300px;
-    line-height: 300px;
-    font-weight: 100;
-    word-wrap:break-word;
-  }
-}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
@@ -100,7 +88,7 @@ input[type=text]:focus {
   }
   .content h1{
     padding-bottom: 0;
-    padding-top: 300px;
+    padding-top: 350px;
       font-size: 250px;
       line-height: 250;
       font-weight: 80;
@@ -119,7 +107,7 @@ input[type=text]:focus {
 }
 .content h1{
   padding-bottom: 0;
-  padding-top: 200;
+  padding-top: 350px;
     font-size: 200px;
     line-height: 240px;
     font-weight: 100;
@@ -139,7 +127,11 @@ input[type=text]:focus {
       padding-bottom: 0%;
   }
   .content h1{
+    padding-bottom: 0;
+    padding-top: 350px;
       font-size: 200px;
+      line-height: 240px;
+      font-weight: 100;
       word-wrap:break-word;
   }
   .btn{
@@ -156,7 +148,11 @@ input[type=text]:focus {
         padding-bottom: 0%;
     }
     .content h1{
+      padding-bottom: 0;
+      padding-top: 350px;
         font-size: 150px;
+        line-height: 240px;
+        font-weight: 100;
         word-wrap:break-word;
     }
     .btn{
@@ -174,7 +170,11 @@ input[type=text]:focus {
         padding-bottom: 0%;
     }
     .content h1{
-        font-size: 100px%;
+      padding-bottom: 0;
+      padding-top: 350px;
+        font-size: 120px;
+        line-height: 240px;
+        font-weight: 100;
         word-wrap:break-word;
     }
     .btn{
@@ -191,7 +191,11 @@ input[type=text]:focus {
         padding-bottom: 0%;
     }
     .content h1{
-        font-size: 80px%;
+      padding-bottom: 0;
+      padding-top: 350px;
+        font-size: 100px;
+        line-height: 240px;
+        font-weight: 100;
         word-wrap:break-word;
     }
     .btn{
