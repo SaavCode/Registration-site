@@ -1,16 +1,28 @@
 <head>
+    <!--google font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <!--app.css-->
     <link rel="stylesheet" href="/app.css">
 </head>
 
 <body>
+    <!-- container 1 -->
     <div class="flex-container">
+        <!--  container 2-->
     <div class="container">
-        <h1>JOIN US</h1>
-        <p class="lead">Enter your email to join <strong><%= count %></strong> others on our waitlist. We are 100% not a cult. </p>
+        <h1>ENLIST TODAY!</h1>
+        <!-- in strong recieve count from app.js-->
+        <p class="lead">Submit your email to join <strong><%= count %></strong> peoople
+        fighting for animal rights. </p>
+
+        <h3>The love for all living creatures is the most noble attribute of man.
+
+        <h4> - Charles Darwin</h4></h3>
+
+        <!--post request, use action to route-->
         <form method="POST" action='/register'>
             <input type="text" class="form" name="email" placeholder="Enter Your Email">
-            <button>Join Now</button>
+            <button>Subscribe Now</button>
         </form>
     </div>
 </div>
