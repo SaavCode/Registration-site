@@ -26,9 +26,9 @@ body {
 /*header*/
 h1{
 padding-bottom: 0;
-padding-top: 200px;
+padding-top: 400px;
   font-size: 300px;
-  line-height: 200px;
+  line-height: 300px;
   font-weight: 100;
   word-wrap:break-word;
 }
@@ -96,7 +96,7 @@ input[type=text]:focus {
     word-wrap:break-word;
 }
 .btn{
-    font-size: 130%;
+    font-size: 200px;
     padding: 9px 17px;
 
 }
@@ -121,7 +121,7 @@ input[type=text]:focus {
         padding-bottom: 0%;
     }
     .content h1{
-        font-size: 80px%;
+        font-size: 100px%;
         word-wrap:break-word;
     }
     .btn{
