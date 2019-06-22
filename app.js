@@ -34,6 +34,6 @@ app.post("/register", function(req, res){
     });
 });
 
-app.listen(8080, function(){
+app.listen(process.env.PORT, function(){
     console.log("Server running on 8080!");
 });
