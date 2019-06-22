@@ -99,7 +99,11 @@ input[type=text]:focus {
       padding-bottom: 0%;
   }
   .content h1{
-      font-size: 270pxpx;
+    padding-bottom: 0;
+    padding-top: 300px;
+      font-size: 250px;
+      line-height: 250;
+      font-weight: 80;
       word-wrap:break-word;
   }
   .btn{
@@ -114,7 +118,11 @@ input[type=text]:focus {
     padding-bottom: 0%;
 }
 .content h1{
-    font-size: 250pxpx;
+  padding-bottom: 0;
+  padding-top: 200;
+    font-size: 200px;
+    line-height: 240px;
+    font-weight: 100;
     word-wrap:break-word;
 }
 .btn{
