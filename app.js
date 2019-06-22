@@ -8,9 +8,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'learnwithcolt',
-  database : 'join_us'
+  host     : 'us-cdbr-iron-east-02.cleardb.net',
+  user     : 'bbda529469cfe9',
+  database : 'heroku_44bb9b625168163?',
+  password: '4af409fc'
 });
 
 app.get("/", function(req, res){
@@ -18,7 +19,7 @@ app.get("/", function(req, res){
     var q = "SELECT COUNT(*) AS count FROM users";
     connection.query(q, function(err, results){
         if(err) throw err;
-        var count = results[0].count; 
+        var count = results[0].count;
         res.render("home", {count: count});
     });
 });
