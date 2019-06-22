@@ -5,10 +5,14 @@ body {
     text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
     color: white;
     /*show image*/
-    background-image: url('https://hdqwalls.com/wallpapers/wolf-howling-to-moon.jpg');
+    background-image: url('https://hdqwalls.com/wallpapers/wolf-howling-to-moon.jpg') no-repeat 50% 50%;
     /*chage size*/
     background-size: cover;
     font-weight: 100;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
 }
 
 /*postion vertically*/
@@ -22,7 +26,7 @@ body {
 /*header*/
 h1{
   margin: 0;
-  font-size: 500px;
+  font-size: 400px;
   line-height: 400px;
   font-weight: 100;
 }
@@ -103,7 +107,7 @@ input[type=text]:focus {
     }
     .btn{
 
-        font-size: 110%; 
+        font-size: 110%;
         padding: 7px 15px;
 
     }
