@@ -25,7 +25,7 @@ body {
 
 /*header*/
 h1{
-  margin: 0;
+  margin-top: : 50px;
   font-size: 300px;
   line-height: 400px;
   font-weight: 100;
@@ -90,7 +90,7 @@ input[type=text]:focus {
     padding-bottom: 0%;
 }
 .content h1{
-    font-size: 400%;
+    font-size: 100%;
 }
 .btn{
     font-size: 130%;
@@ -103,7 +103,7 @@ input[type=text]:focus {
         padding-bottom: 0%;
     }
     .content h1{
-        font-size: 250%;
+        font-size: 50%;
     }
     .btn{
 
@@ -117,7 +117,7 @@ input[type=text]:focus {
         padding-bottom: 0%;
     }
     .content h1{
-        font-size: 180%;
+        font-size: 30%;
     }
     .btn{
         font-size: 100%;
