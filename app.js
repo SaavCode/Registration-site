@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/public"));
 var connection = mysql.createConnection({
   host     : 'us-cdbr-iron-east-02.cleardb.net',
   user     : 'bbda529469cfe9',
-  database : 'heroku_44bb9b625168163?',
+  database : 'heroku_44bb9b625168163',
   password: '4af409fc'
 });
 

@@ -5,8 +5,6 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },"scripts":{
-      "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +19,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saavfoxdev/Registration-site.git"
+  },"scripts":{
+      "start": "node app.js"
   },
   "bugs": {
     "url": "https://github.com/saavfoxdev/Registration-site/issues"
