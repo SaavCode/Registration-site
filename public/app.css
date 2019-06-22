@@ -41,7 +41,26 @@ p {
 	padding: 5px 10px;
 	background: transparent;
 }
+h1{
+  margin: 0;
+  font-size: 300px;
+  line-height: 400px;
+  font-weight: 100;
+}
 
+h3{
+   margin: 0;
+  font-size: 40px;
+
+
+}
+
+
+h4{
+    margin: 0;
+  font-size: 20px;
+
+}
 /*button design*/
 button {
     line-height: 2.0;
@@ -69,7 +88,7 @@ input[type=text]:focus {
     padding-bottom: 0%;
 }
 .content h1{
-    font-size: 400%;
+    font-size: 250%;
 }
 .btn{
     font-size: 130%;
